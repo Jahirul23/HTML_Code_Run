@@ -1,4 +1,4 @@
-/* body {
+ body {
   background: url(BTEBCollege.jpg);
   background-size: 500px;
   background-attachment: fixed;
@@ -12,9 +12,9 @@ div{
   background-repeat: no-repeat;
   background-position: center ;
 }
-*/
 
-.div1{
+
+/*.div1{
   color: darkorange;
   background-color: skyblue ;
   height: 300px;
@@ -29,6 +29,7 @@ div{
   background-color: blue;
   margin: 30px;
   padding:5px ;
+  */
   
 }
 
