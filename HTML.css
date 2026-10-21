@@ -1,86 +1,42 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-header {
-  background: #e66767;
-  padding: 20px;
-  text-align: center;
-  margin-bottom: 10px;
-  color: white;
-}
-#BM h1 {
-  background: #e66767;
-  padding: 20px;
-  text-align: center;
-  margin-bottom: 10px;
-  color: white;
-}
-nav {
-  background: #574b90;
-  padding: 20px;
-  text-align: center;
-  margin-bottom: 10px;
-}
-nav ul {
-  list-style: none;
-}
-nav ul li {
-  display: inline-block;
-  margin: 0 10px;
-}
-nav a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 18px;
-  background-image: BTEBCollege.jpg;
-}
-section {
-  display: flex;
-  justify-content: space-between;
-}
-div {
-  background: #786fa6;
-  flex-basis: 60%;
-  padding: 25px 30px;
-}
-aside {
-  padding: 25px 30px;
-  background: #f7d794;
-  flex-basis: 38%;
-}
-aside ul {
-  margin-left: 18px;
-  margin-top: 10px;
-}
-footer {
-  margin-top: 10px;
-  background: #596275;
-  padding: 10px;
-  text-align: center;
-  color: white;
+/* body {
+  background: url(BTEBCollege.jpg);
+  background-size: 500px;
+  background-attachment: fixed;
 }
 
-#hero {
-  background: #546de5;
-  padding: 20px;
-  text-align: center;
-  margin-bottom: 10px;
-  color: white;
+div{
+  color:#121966;
+  background-color: #89A6A8;
+  background-image: url(My_profile.jpg);
+  background-size: 120px 120px;
+  background-repeat: no-repeat;
+  background-position: center ;
+}
+*/
+
+.div1{
+  color: darkorange;
+  background-color: skyblue ;
   height: 300px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-#hero h1 {
-  font-size: 25px;
-  margin-bottom: 10px;
+#div2 {
+  background-color: blue;
+  margin: 30px;
+  padding:5px ;
+  
 }
-#hero a {
-  background: #262626;
-  color: #fff;
-  display: inline-block;
-  padding: 10px 25px;
-  margin-top: 15px;
+
+body h1 {
+  border-style: solid;
+  border-width: 6px;
+  border-color: darkslategray;
+  border-radius: 20px;
+  border: solid 6px darkslategray;
+/*  border-bottom: solid 6px darkslategray;*/
 }
