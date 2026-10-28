@@ -1,54 +1,50 @@
- body {
-  background: url(BTEBCollege.jpg);
-  background-size: 500px;
-  background-attachment: fixed;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-html, body{
-    height: 100%;
+h1 {
+    color: blue;
+    background: yellow;
+    text-align: left;
+}
+.one {
+    text-align-last: center;
 }
 
-div{
-  color:#121966;
-  background-color: #89A6A8;
-  background-image: url(My_profile.jpg);
-  background-size: 120px 120px;
-  background-repeat: no-repeat;
-  background-position: center ;
-/*  width: 66%; */
+.two {
+    text-align: center;
 }
 
-
-
-.div1{
-  color: yellow;
-  background-color: skyblue ;
-  height: 300px;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  background-image: none;
-  /*width: 300px;*/
-  height: 100%;
+.three {
+    direction: rtl;
+    unicode-bidi: bidi-override;
 }
 
-#div2 {
-  color: yellow;
-  background-color: blue;
-  margin: 30px;
-  padding:5px ;
-  background-image: none;
-  
-  
+.baseline img {
+    vertical-align: baseline;
 }
 
-body h1 {
-  border-style: solid;
-  border-width: 6px;
-  border-color: darkslategray;
-  border-radius: 20px;
-  border: solid 6px darkslategray; */
-/*  border-bottom: solid 6px darkslategray;*/
+.text-top img {
+    vertical-align: text-top;
+}
+
+.text-bottom img {
+    vertical-align: text-bottom;
+}
+
+a{
+    text-decoration: line-through overline underline;
+}
+
+h2{
+    text-transform: capitalize;
+}
+
+.text-transform {
+    text-transform: lowercase;
+}
+
+p{
+    text-indent: 140px;
+}
