@@ -7,6 +7,7 @@ h1 {
     color: blue;
     background: yellow;
     text-align: left;
+    text-shadow: 10px 10px 4px black;
 }
 .one {
     text-align-last: center;
@@ -45,6 +46,10 @@ h2{
     text-transform: lowercase;
 }
 
-p{
+.pthree{
     text-indent: 140px;
+  /*  letter-spacing: 5px; */
+    font-size:20px;
+    line-height:27px;
+    word-spacing: 5px;
 }
