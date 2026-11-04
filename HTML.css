@@ -1,55 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-h1 {
-    color: blue;
-    background: yellow;
-    text-align: left;
-    text-shadow: 10px 10px 4px black;
-}
-.one {
-    text-align-last: center;
-}
-
-.two {
-    text-align: center;
-}
-
-.three {
-    direction: rtl;
-    unicode-bidi: bidi-override;
-}
-
-.baseline img {
-    vertical-align: baseline;
-}
-
-.text-top img {
-    vertical-align: text-top;
-}
-
-.text-bottom img {
-    vertical-align: text-bottom;
-}
-
-a{
-    text-decoration: line-through overline underline;
-}
-
 h2{
-    text-transform: capitalize;
-}
-
-.text-transform {
-    text-transform: lowercase;
-}
-
-.pthree{
-    text-indent: 140px;
-  /*  letter-spacing: 5px; */
-    font-size:20px;
-    line-height:27px;
-    word-spacing: 5px;
+    font-family: serif;
+    font-family: fantasy;
+    font-family: monospace;
+    font-family: sans-serif;
+    font-family: cursive;
+    font-size: 36px;
 }
